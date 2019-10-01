@@ -1,6 +1,6 @@
 {
   "name": "@joaaomanooel/rc-github-integration",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Integrates Github with your Rocket.Chat",
   "scripts": {
     "deploy": "rc-apps deploy --update --url=http://localhost:3000 -u joaaomanooel",
