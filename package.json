@@ -4,7 +4,7 @@
   "description": "Integrates Github with your Rocket.Chat",
   "scripts": {
     "deploy": "rc-apps deploy --update --url=http://localhost:3000 -u joaaomanooel",
-    "preversion:app": "replace '/v\\d+\\.\\d+\\.\\d+' \"/v$npm_package_version\" ./app.json"
+    "postversion": "node scripts/version.js"
   },
   "author": {
     "name": "Joao Manoel Neto",
